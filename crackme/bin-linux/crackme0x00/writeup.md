@@ -9,6 +9,8 @@ $rabin2 -I crackme0x00
 
 explain shell image
 
+![Screenshot](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2.png)
+
 rabin2 -I  image from termianl 
 
 ### Cracking file using rabin2

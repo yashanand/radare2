@@ -14,9 +14,10 @@ $rabin2 -I crackme0x00
 ### Cracking file using rabin2
 
 ```console            
-rabin2 -z crackme0x00
+$rabin2 -z crackme0x00
 ```
-explain shell image
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2_z.png)
+
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 
 

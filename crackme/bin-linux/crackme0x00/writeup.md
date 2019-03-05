@@ -1,4 +1,4 @@
-"hello world"
+
 # crackme0x00
 ### Information gathering using rabin2
 
@@ -7,11 +7,9 @@
 $rabin2 -I crackme0x00
 ```
 
-explain shell image
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2.png)
 
-![Screenshot](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2.png)
-
-rabin2 -I  image from termianl 
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/info_using_rabin2.png)
 
 ### Cracking file using rabin2
 
@@ -19,7 +17,7 @@ rabin2 -I  image from termianl
 rabin2 -z crackme0x00
 ```
 explain shell image
-rabin2 -z  image from termianl 
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 
 
 ### Cracking file using radare2

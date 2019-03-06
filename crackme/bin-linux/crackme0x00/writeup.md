@@ -33,12 +33,11 @@ $radare2 crackme0x00
 * aaa:- analyze all with more info.
 * pdf:- print disassemble function.
 
-explain shell image 
-
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2.png)
 
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/main_function.png)
-radare2  image from termianl 
+
+
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/%40main_using_radare2.png)
 

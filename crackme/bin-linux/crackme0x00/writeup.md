@@ -9,6 +9,7 @@ $rabin2 -I crackme0x00
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2.png)
 
+
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/info_using_rabin2.png)
 
 ### Cracking file using rabin2
@@ -17,6 +18,7 @@ $rabin2 -I crackme0x00
 $rabin2 -z crackme0x00
 ```
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2_z.png)
+
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 
@@ -42,6 +44,11 @@ $radare2 crackme0x00
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/%40main_using_radare2.png)
 
 ### cracking with passw0rd
+
+```console
+$./crackme0x00 
+Password: 250382
+```
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/crack_pass.png)
 

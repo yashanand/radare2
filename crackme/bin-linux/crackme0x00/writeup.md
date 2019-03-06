@@ -12,6 +12,8 @@ $rabin2 -I crackme0x00
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/info_using_rabin2.png)
 
+The main info is that the binary is 32-bit little endian , we can use other linux command like **file**.
+
 ### Cracking file using rabin2
 
 ```console            
@@ -24,7 +26,7 @@ $rabin2 -z crackme0x00
 
 Lets analyse the output of the command, we got 5 strings lets try to figure out by executing the binary file.
 
-* IOLI Crackme Level 0x00 :- This is first strings which will print whwn we run the program.
+* IOLI Crackme Level 0x00 :- This is first strings which will print when we run the program.
 * Password :- This wil prompt the password to enter which will futher check if it's correct or not.
 * Invalid Password! :- This will prompt when the password is wrong , bad luck :(
 * Password OK :) :- This will prompt when the password is correct :)

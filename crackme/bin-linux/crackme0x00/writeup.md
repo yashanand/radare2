@@ -29,9 +29,9 @@ $radare2 crackme0x00
 [0x08048360]> pdf @ main
 ```
 
-aa:- analyze all.
-aaa:- analyze all with more info.
-pdf:- print disassemble function.
+* aa:- analyze all.
+* aaa:- analyze all with more info.
+* pdf:- print disassemble function.
 
 explain shell image 
 

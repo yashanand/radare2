@@ -22,6 +22,16 @@ $rabin2 -z crackme0x00
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 
+Lets analyse the output of the command, we got 5 strings lets try to figure out by executing the binary file.
+
+* IOLI Crackme Level 0x00 :- This is first strings which will print whwn we run the program.
+* Password :- This wil prompt the password to enter which will futher check if it's correct or not.
+* Invalid Password! :- This will prompt when the password is wrong , bad luck :(
+* Password OK :) :- This will prompt when the password is correct :)
+* 250382 :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd.
+
+
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/crack_pass.png)
 
 ### Cracking file using radare2
 

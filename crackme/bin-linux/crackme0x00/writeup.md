@@ -12,7 +12,7 @@ $rabin2 -I crackme0x00
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/info_using_rabin2.png)
 
-The main info is that the binary is 32-bit little endian , we can use other linux command like **file**.
+The main info is that the binary is 32-bit little endian , we can use other linux command like **file** to find the info about the bin file.
 
 ### Cracking file using rabin2
 

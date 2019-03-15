@@ -21,7 +21,7 @@ $rabin2 -z crackme0x00
 ```
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2_z.png)
 
-*rabin2*` with *-z* parmeter extract all the strings from binary files, it is like the linux **strings** command.
+*rabin2* with *-z* parmeter extract all the strings from binary file, it is like the linux **strings** command.
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 
@@ -30,8 +30,8 @@ Lets analyse the output of the command, we got 5 strings lets try to figure out 
 * IOLI Crackme Level 0x00 :- This is first strings which will print when we run the program.
 * Password :- This wil prompt the password to enter which will futher check if it's correct or not.
 * Invalid Password! :- This will prompt when the password is wrong , bad luck :(
-* Password OK :) :- This will prompt when the password is correct :)
-* 250382 :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd.Maybe the strings *250382* is compared with the given input.
+* Password OK :) :- This will be prompt when the password is correct :) [assumption]
+* 250382 :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd maybe the strings *250382* is compared with the given input.
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/crack_pass.png)
 

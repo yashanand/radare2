@@ -7,7 +7,7 @@
 $rabin2 -I crackme0x01
 ```
 
-![](explain shell )
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x01/0x01/explain_rabin2_I.png)
 
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x01/0x01/rabin2_I.png)
@@ -19,7 +19,7 @@ The main info is that the binary is 32-bit little endian , we can use other linu
 ```console            
 $rabin2 -z crackme0x01
 ```
-![](exaplin shell)
+![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x01/0x01/explain_shell_z.png)
 
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x01/0x01/rabin2_z.png)

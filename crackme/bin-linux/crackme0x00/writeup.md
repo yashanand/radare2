@@ -57,8 +57,10 @@ $radare2 crackme0x00
 
 Lets try to analyse the above snap.
 
-At *0x08048469* address there is a strings cmp between **s1** and **s2**.Lets try to find out what is the s1 and s2 variable.
-At *0x0804845e* string *250382* is moved into the variable s2 and s1 will be the our input which we give as a password. 
+* At *0x08048469* address there is a strings cmp between **s1** and **s2**.Lets try to find out what is the s1 and s2 variable.
+
+* At *0x0804845e* string *250382* is moved into the variable s2.
+* From *0x08048456* and *0x0804845b* s1 will be the our input which we give as a password. 
 
 ### cracking with pasmov dword [s2], str.250382sw0rd
 

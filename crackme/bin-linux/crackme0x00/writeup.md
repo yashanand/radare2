@@ -12,7 +12,7 @@ $rabin2 -I crackme0x00
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/info_using_rabin2.png)
 
-The main info is that the binary is 32-bit little endian , we can use other linux command like **file** to find the info about the bin file.
+The main info is that the given binary is 32-bit and little endian, we can use other linux command like **file** to find the info about the binary file.
 
 ### Cracking file using rabin2
 
@@ -21,6 +21,7 @@ $rabin2 -z crackme0x00
 ```
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2_z.png)
 
+*rabin2*` with *-z* parmeter extract all the strings from binary files, it is like the linux **strings** command.
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 
@@ -30,8 +31,7 @@ Lets analyse the output of the command, we got 5 strings lets try to figure out 
 * Password :- This wil prompt the password to enter which will futher check if it's correct or not.
 * Invalid Password! :- This will prompt when the password is wrong , bad luck :(
 * Password OK :) :- This will prompt when the password is correct :)
-* 250382 :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd.
-
+* 250382 :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd.Maybe the strings *250382* is compared with the given input.
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/crack_pass.png)
 

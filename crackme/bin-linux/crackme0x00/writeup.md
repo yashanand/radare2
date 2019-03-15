@@ -21,7 +21,7 @@ $rabin2 -z crackme0x00
 ```
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/man_rabin2_z.png)
 
-*rabin2* with *-z* parmeter extract all the strings from binary file, it is like the linux **strings** command.
+*rabin2* with *-z* parameter extract all the strings from binary file, it is like the linux **strings** command.
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/using_rabin2.png)
 

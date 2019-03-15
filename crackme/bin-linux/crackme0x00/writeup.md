@@ -27,11 +27,11 @@ $rabin2 -z crackme0x00
 
 Lets analyse the output of the command, we got 5 strings lets try to figure out by executing the binary file.
 
-* IOLI Crackme Level 0x00 :- This is first strings which will print when we run the program.
-* Password :- This wil prompt the password to enter which will futher check if it's correct or not.
-* Invalid Password! :- This will prompt when the password is wrong , bad luck :(
-* Password OK :) :- This will be prompt when the password is correct :) [assumption]
-* 250382 :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd maybe the strings *250382* is compared with the given input.
+* *IOLI Crackme Level 0x00* :- This is first strings which will print when we run the program.
+* *Password* :- This wil prompt the password to enter which will futher check if it's correct or not.
+* *Invalid Password!* :- This will prompt when the password is wrong , bad luck :(
+* *Password OK :)* :- This will be prompt when the password is correct :) [assumption]
+* *250382* :- This is the number which appears, but no idea what is used for ,lets try to put this as a passw0rd maybe the strings *250382* is compared with the given input.
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/crack_pass.png)
 
@@ -60,7 +60,7 @@ Lets try to analyse the above snap.
 At *0x08048469* address there is a strings cmp between **s1** and **s2**.Lets try to find out what is the s1 and s2 variable.
 At *0x0804845e* string *250382* is moved into the variable s2 and s1 will be the our input which we give as a password. 
 
-### cracking with passw0rd
+### cracking with pasmov dword [s2], str.250382sw0rd
 
 ```console
 $./crackme0x00 

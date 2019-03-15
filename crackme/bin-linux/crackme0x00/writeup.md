@@ -62,7 +62,7 @@ Lets try to analyse the above snap.
 * At *0x0804845e* string *250382* is moved into the variable s2.
 * From *0x08048456* and *0x0804845b* s1 will be the our input which we give as a password. 
 
-### cracking with pasmov dword [s2], str.250382sw0rd
+### cracking with passw0rd
 
 ```console
 $./crackme0x00 

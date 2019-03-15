@@ -55,6 +55,11 @@ $radare2 crackme0x00
 
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/%40main_using_radare2.png)
 
+Lets try to analyse the above snap.
+
+At *0x08048469* address there is a strings cmp between **s1** and **s2**.Lets try to find out what is the s1 and s2 variable.
+At *0x0804845e* string *250382* is moved into the variable s2 and s1 will be the our input which we give as a password. 
+
 ### cracking with passw0rd
 
 ```console

@@ -40,17 +40,17 @@ $radare2 crackme0x01
 ![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x01/0x01/explain_radare2.png)
 
 
-![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/main_function.png)
+![]()
 
 
-![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/%40main_using_radare2.png)
+![]()
 
 ### cracking with passw0rd
 
 ```console
 $./crackme0x00 
-Password: 250382
+Password:
 ```
 
-![](https://github.com/yashanand/radare2/blob/master/crackme/bin-linux/crackme0x00/0x00/crack_pass.png)
+![]()
 
